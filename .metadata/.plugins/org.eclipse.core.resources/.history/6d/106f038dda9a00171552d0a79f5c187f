@@ -1,0 +1,7 @@
+package tutorial.spring.beans;
+
+public class Point {
+	int x;
+	int y;
+
+}

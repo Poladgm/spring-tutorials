@@ -1,0 +1,9 @@
+package tutorial.spring.beans;
+
+public class Triangle {
+
+	Point a;
+    Point b;
+    Point c;
+	
+}

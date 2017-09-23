@@ -1,0 +1,37 @@
+package tutorial.spring.beans;
+
+public class Triangle {
+
+	Point pointA;
+    Point pointB;
+    Point pointC;
+    
+    
+	public Point getA() {
+		return pointA;
+	}
+	public void setA(Point a) {
+		this.pointA = a;
+	}
+	public Point getB() {
+		return pointB;
+	}
+	public void setB(Point b) {
+		this.pointB = b;
+	}
+	public Point getC() {
+		return pointC;
+	}
+	public void setC(Point c) {
+		this.pointC = c;
+	}
+    
+    public void draw(){
+    //	System.out.println("point A cordinates "+pointA.getX()+" : "+pointA.getY());
+
+    	System.out.println("point B cordinates "+pointB.getX()+" : "+pointB.getY());
+
+    	System.out.println("point C cordinates "+pointC.getX()+" : "+pointC.getY());
+    }
+	
+}

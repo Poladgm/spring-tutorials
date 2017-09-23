@@ -1,0 +1,9 @@
+package tutorial.spring.beans;
+
+public class Triangle {
+
+	public void print(){
+		System.out.print(hashCode());
+	}
+	
+}

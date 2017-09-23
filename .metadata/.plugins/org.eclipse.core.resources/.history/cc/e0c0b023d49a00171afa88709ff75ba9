@@ -1,0 +1,12 @@
+package tutorial.spring.beans;
+
+public class Triangle {
+	private String type;
+
+	public void draw(){
+		System.out.println(type+" Triangle drawing");
+	}
+
+	
+	
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+    "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+    <beans>
+    <bean id="triangle" class="tutorial.spring.beans.Triangle">
+    <constructor-arg index="1" value="Equilateral"/>
+    <constructor-arg index="0" value="20"/>
+    </bean>
+    <bean id="rectangle" class="tutorial.spring.beans.Rectangle">
+    <constructor-arg type="int" value="55"/>
+    </bean>
+    </beans>
