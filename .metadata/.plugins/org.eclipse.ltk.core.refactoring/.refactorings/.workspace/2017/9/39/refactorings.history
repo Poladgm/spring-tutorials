@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;14-spring_bean_postprocessor&apos; to &apos;14-spring_bean_postProcessor&apos;" description="Rename resource &apos;14-spring_bean_postprocessor&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/14-spring_bean_postprocessor" name="14-spring_bean_postProcessor" stamp="1506246145941" updateReferences="true"/>
+</session>
