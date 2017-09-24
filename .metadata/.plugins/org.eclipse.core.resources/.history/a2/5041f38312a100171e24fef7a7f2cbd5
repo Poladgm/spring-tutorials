@@ -6,7 +6,6 @@
 	<bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
 	<property name="location" value="pointConfig.properties"/>
 	</bean>
-	<bean class="tutorial.spring.beans.MyBeanPostProcessor"/>
 	
 	<bean id="triangle" class="tutorial.spring.beans.Triangle">
 		<property name="c" ref="pointC"/>
@@ -33,6 +32,7 @@
 		<property name="y" value="-5"/>
 	</bean>
 	
+	<bean class="tutorial.spring.beans.MyBeanPostProcessor"/>
 	
 
 </beans>

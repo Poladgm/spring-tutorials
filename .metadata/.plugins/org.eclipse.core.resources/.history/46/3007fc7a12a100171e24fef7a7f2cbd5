@@ -8,7 +8,7 @@ public class MyBeanPostProcessor implements BeanFactoryPostProcessor {
 
 	public void postProcessBeanFactory(
 			ConfigurableListableBeanFactory beanFactory) throws BeansException {
-	     	System.out.println("bean factory post processor is called");
+		System.out.println("bean factory post	 processor is called");
 
 	}
 
