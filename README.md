@@ -1,6 +1,8 @@
 # spring-tutorials
 This project is a collection of small and focused tutorials each covering a single and well defined area of spring development.
-
+ 
+#### The Core conpets are shown on below
+ 
 1.Spring beanFactory
 
 2.Spring bean scopes
